@@ -1,0 +1,16 @@
+.center-div-companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+table, td {
+    border: 1px solid;
+}
+
+td {
+    padding: 8px;
+}

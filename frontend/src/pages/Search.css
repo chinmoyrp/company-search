@@ -1,0 +1,32 @@
+  .search-result {
+    width: 100%;
+    border-style: solid;
+    border-top: 0px;
+    border-width: 2px;
+  }
+  
+  .search-result:hover {
+    background: rgb(116, 195, 252);
+  }
+  
+  .item-alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+  }
+  
+  .center-div {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0.25em;
+    align-items: center;
+    margin-top: 10%;
+    height: 100vh;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-flow: row;
+    column-gap: 1em;
+  }
